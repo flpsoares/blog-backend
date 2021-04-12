@@ -24,3 +24,5 @@ Route.get('/users', 'UsersController.index')
 Route.post('/user', 'UsersController.store')
 Route.put('/user/:id', 'UsersController.update')
 Route.delete('/user/:id', 'UsersController.delete')
+
+Route.post('/auth', 'AuthController.auth')
